@@ -127,7 +127,7 @@ function Navbar() {
             <Link
               to="/join"
               onClick={closeMenu}
-              className="w-fit rounded-full bg-lime-400 px-5 py-2 text-sm font-medium text-blue-900"
+              className="w-fit rounded-full bg-[#D4FB20] px-5 py-2 text-sm font-medium text-blue-900"
             >
               Join Us
             </Link>

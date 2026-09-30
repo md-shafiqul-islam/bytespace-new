@@ -66,7 +66,7 @@ function Hero() {
       {/* Main content */}
       <div className="relative z-20 mx-auto flex max-w-6xl flex-col items-center px-4 text-center sm:px-6">
         {/* Heading */}
-        <h1 className="max-w-[340px] text-2xl font-semibold leading-[1.1] tracking-tight text-white sm:max-w-4xl sm:text-5xl md:text-6xl lg:text-7xl">
+        <h1 className="max-w-85 text-2xl font-semibold leading-[1.1] tracking-tight text-white sm:max-w-4xl sm:text-5xl md:text-6xl lg:text-7xl">
           Get Access to Hundreds
           <br className="hidden sm:block" /> Courses Available
         </h1>
@@ -133,7 +133,7 @@ function Hero() {
             </p>
 
             <div className="mt-1 h-1.5 w-full rounded-full bg-gray-200">
-              <div className="h-full w-[55%] rounded-full bg-lime-400" />
+              <div className="h-full w-[55%] rounded-full bg-[#D4FB20]" />
             </div>
           </div>
 

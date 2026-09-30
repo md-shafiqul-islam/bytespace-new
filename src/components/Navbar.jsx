@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <header className="absolute left-0 top-0 z-50 w-full bg-[#003BE2] ">
-      <nav className="mx-auto flex h-30 max-w-7xl items-center justify-between px-6 lg:px-10">
+      <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:h-24 sm:px-6 lg:h-30 lg:px-10">
         {/* Logo */}
         <Link to="/" onClick={closeMenu} className="flex items-center gap-2">
           <div className="flex h-7 w-7 items-center justify-center">

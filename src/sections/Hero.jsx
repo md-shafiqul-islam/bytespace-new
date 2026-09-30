@@ -197,11 +197,11 @@ function Hero() {
                   alt=""
                   className="h-6 w-6 rounded-full border-2 border-white object-cover"
                 />
-              </div>
 
-              <span className="h-6 w-6 rounded-full bg-[#D4FB20] text-[7px] font-semibold flex items-center justify-center">
-                2K+
-              </span>
+                <span className="h-6 w-6 rounded-full bg-[#D4FB20] text-[10px] font-semibold flex items-center justify-center">
+                  2K+
+                </span>
+              </div>
             </div>
           </div>
         </div>

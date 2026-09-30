@@ -1,5 +1,7 @@
 import Navbar from "../components/Navbar";
+import Course from "../sections/Course";
 import Hero from "../sections/Hero";
+import Partners from "../sections/Partners";
 
 function Home() {
   return (
@@ -8,6 +10,8 @@ function Home() {
 
       <main>
         <Hero />
+        <Partners />
+        <Course />
       </main>
     </>
   );

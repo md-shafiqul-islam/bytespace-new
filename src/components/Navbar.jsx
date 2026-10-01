@@ -62,7 +62,7 @@ function Navbar() {
           </Link>
 
           <Link
-            to="/join"
+            to="/signup"
             className="text-xs text-white/80 transition hover:text-white"
           >
             Join Us
@@ -128,7 +128,7 @@ function Navbar() {
             </Link>
 
             <Link
-              to="/join"
+              to="/signup"
               onClick={closeMenu}
               className="w-fit rounded-full bg-[#D4FB20] px-5 py-2 text-sm font-medium text-blue-900"
             >

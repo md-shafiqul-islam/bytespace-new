@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Course from "../sections/Course";
 import CreatorCTA from "../sections/CreatorCTA";
@@ -21,6 +22,8 @@ function Home() {
         <CreatorCTA />
         <Testimonials />
       </main>
+
+      <Footer />
     </>
   );
 }

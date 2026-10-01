@@ -5,6 +5,7 @@ import Growth from "../sections/Growth";
 import Hero from "../sections/Hero";
 import Partners from "../sections/Partners";
 import Paths from "../sections/Paths";
+import Testimonials from "../sections/Testimonials";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
         <Paths />
         <Growth />
         <CreatorCTA />
+        <Testimonials />
       </main>
     </>
   );

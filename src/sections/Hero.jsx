@@ -17,7 +17,10 @@ import SearchBar from "../components/SearchBar";
 
 function Hero() {
   return (
-    <section className="relative min-h-155 overflow-hidden bg-[#003BE2] pt-32 sm:pt-36 lg:pt-40">
+    <section
+      className="relative min-h-155 overflow-hidden bg-[#003BE2] pt-32 sm:pt-36 lg:pt-40 bg-[linear-gradient(rgba(255,255,255,0.12)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.12)_1px,transparent_1px)]
+          bg-[size:112px_112px]"
+    >
       {/* Decoration 1 */}
       <div className="relative top-10 hidden w-full sm:block lg:top-0">
         <img

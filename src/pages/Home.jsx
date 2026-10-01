@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import Course from "../sections/Course";
+import CreatorCTA from "../sections/CreatorCTA";
 import Growth from "../sections/Growth";
 import Hero from "../sections/Hero";
 import Partners from "../sections/Partners";
@@ -16,6 +17,7 @@ function Home() {
         <Course />
         <Paths />
         <Growth />
+        <CreatorCTA />
       </main>
     </>
   );
